@@ -18,7 +18,7 @@ a.active {
   border-bottom: rgba(0,0,0,0.8);
 }
 header{
-  background: #a30000 url(/img/trumpRedBG.jpg);
+  background: #a30000 url(./img/trumpRedBG.jpg);
   background-size: cover;
   margin-bottom: 50px;
 }
