@@ -1,0 +1,141 @@
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #b40000;
+  outline: none;
+}
+.navbar-brand{
+      text-shadow: 0 5px 5px rgba(0,0,0,.2), 0 10px 10px rgba(0,0,0,.15);
+}
+.navbar-custom{
+  background: transparent;
+}
+.navbar-custom.affix{
+  background: #a30000;
+  background: rgba(0,0,0,0.75);
+  border-bottom: rgba(0,0,0,0.8);
+}
+header{
+  background: #a30000 url(/img/trumpRedBG.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+section{
+  padding: 50px 0;
+}
+hr.star-light.star-light_no-star:after{
+  display: none;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #fff;
+  outline: none;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #a30000;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #b40000;
+}
+section.success {
+  background: #a30000;
+  color: white;
+}
+.floating-label-form-group-with-focus label {
+  color: #a30000;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #a30000;
+  background: white;
+  border: solid 2px white;
+}
+hr.star-light:after {
+  background-color: #a30000;
+  color: white;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  display: none;
+}
+hr.star-primary {
+  border-color: #333;
+}
+
+
+.mainCTAs a{
+  margin: 2em 0.5em 0;
+}
+.btn i{
+  margin-left: 0.33em;
+}
+.aboutSection{
+  padding: 1em;
+}
+.leftHeader strong{
+  text-align: right;
+  font-size: 1.5em;
+  color: #b40000;
+  text-transform: uppercase;
+  display: block;
+}
+
+section li{
+  font-size: 1.25em;
+  margin: 0.5em 0 1em;
+}
+
+img.disabled{
+  cursor: not-allowed;
+  display: block;
+  margin: 2em auto;
+}
+
+footer .footer-above {
+  background-color: #333;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #222;
+}
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #b40000;
+    color: #fff;
+    border-color: #b40000;
+}
+
+.navbar-collapse.collapse.in ul,
+.navbar-collapse.collapsing ul{
+  background-color: #222;
+}
+
+@media (min-width: 768px){
+  .navbar-header{
+    width: 100%;
+    text-align: center;
+  }
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0;
+    width: 100%;
+  }
+  .mainCTAs a{
+    margin: 2em 1em;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-header{
+    width: auto;
+  }
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: -15px;
+    width: auto;
+  }
+}
